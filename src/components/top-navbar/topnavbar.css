@@ -1,0 +1,73 @@
+#topNavbar {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+#topNavbar > div:first-child {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+#topNavbar > div:first-child > input,
+input::placeholder {
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#topNavbar > div:first-child > #icon {
+  opacity: 0.5;
+}
+
+#topNavbar > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+#topNavbar > div:last-child > img {
+  width: 60px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+#topNavbar > div:last-child > div > h1,
+p {
+  margin: 0;
+}
+
+#topNavbar > div:last-child > div > p {
+  opacity: 0.5;
+}
+
+#bell {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+#topNavbar > div:last-child::after {
+  color: white;
+  font-size: 15px;
+  content: "2";
+  position: absolute;
+  background: var(--accent);
+  border-radius: 50%;
+  padding: 1px 7px;
+  top: 12px;
+  left: 8px;
+  text-align: center;
+}

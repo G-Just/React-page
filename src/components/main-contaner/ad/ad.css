@@ -1,5 +1,34 @@
 #ad {
-  background-color: blue;
-  flex-grow: 1;
+  background-image: url(../../media/ad_background.svg);
+  background-size: cover;
+  background-position-y: 90%;
+  background-repeat: no-repeat;
+  width: 30%;
   border-radius: 20px;
+  height: 100%;
+  color: white;
+  padding: 30px 50px;
+}
+
+#ad > label:first-child {
+  background-color: white;
+  color: blue;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+#ad > h1 {
+  margin: 10px 0;
+}
+
+#ad > button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 0;
+  font-size: 2rem;
+  cursor: pointer;
 }

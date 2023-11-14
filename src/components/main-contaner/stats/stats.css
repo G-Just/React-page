@@ -15,7 +15,7 @@
   justify-content: center;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding: 20px;
-  gap: 30px;
+  gap: 15px;
 }
 
 #block > div {
@@ -24,8 +24,8 @@
 }
 
 #block > div:first-child {
+  padding-top: 2px;
   height: 100%;
-  padding-top: 10px;
   align-items: start;
   justify-content: center;
 }
@@ -40,7 +40,7 @@
   font-weight: 500;
 }
 
-#block > div > h1 > span {
+#volume > span {
   color: gray;
 }
 

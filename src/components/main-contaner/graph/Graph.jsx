@@ -3,10 +3,11 @@ import "./graph.css";
 export function Graph() {
   return (
     <div id="graph">
-      <h1>Monthly Revenue</h1>
-      <h2>
+      <h2>Monthly Revenue</h2>
+      <h1>
         <span>$</span> 15,000
-      </h2>
+      </h1>
+      <p>TODO: ADD GRAPH HERE</p>
     </div>
   );
 }

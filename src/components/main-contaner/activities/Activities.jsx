@@ -1,5 +1,11 @@
 import "./activities.css";
+import { ActivitiesEvent } from "./ActivitiesEvent";
 
 export function Activities() {
-  return <div id="activities">123</div>;
+  return (
+    <div id="activities">
+      <ActivitiesEvent />
+      <ActivitiesEvent />
+    </div>
+  );
 }

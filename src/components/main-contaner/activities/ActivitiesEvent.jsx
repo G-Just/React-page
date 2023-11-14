@@ -1,15 +1,19 @@
-export function ActivitiesEvent() {
+export function ActivitiesEvent(props) {
   return (
     <div>
+      <div>{props.data.pfp}</div>
       <div>
-        <img src="" alt="Pfp" />
-      </div>
-      <div>
-        <p>FLAG New invoice</p>
+        <label>
+          {props.data.flag}
+          {props.data.flagLabel}
+        </label>
         <p>
-          <span>Francisco Gibbs</span>created invoice PQ-4491C
+          <span>{props.data.user} </span>
+          {props.data.event}
+          <span> {props.data.invoiceNumber}</span>
+          <span> {props.data.recipient}</span>
         </p>
-        <p>Just now</p>
+        <p>{props.data.time}</p>
       </div>
     </div>
   );

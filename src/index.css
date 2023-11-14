@@ -31,6 +31,17 @@ body {
   --accent: rgb(11, 64, 201);
 }
 
-/* body {
-  color: slategrey
-} */
+/* Global class used for the green-red flag */
+.negative {
+  background-color: rgba(255, 0, 0, 0.188);
+  color: red;
+}
+
+.positive {
+  background-color: rgba(0, 255, 0, 0.188);
+  color: rgb(0, 136, 0);
+}
+
+#main > div > div {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+}

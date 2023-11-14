@@ -4,3 +4,33 @@
   border-radius: 20px;
   padding: 20px 50px;
 }
+
+#invoices > table {
+  width: 100%;
+}
+
+#invoices > table > tr > th,
+td {
+  padding: 10px;
+}
+
+#invoices > table > tr > th {
+  text-align: start;
+  opacity: 0.5;
+}
+
+#invoices > table > tr > td {
+  font-weight: bold;
+}
+
+#invoices > table > tr > th,
+td {
+  padding: 10px;
+}
+
+#invoices > table > tr > td > div {
+  border-radius: 20px;
+  width: min-content;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
